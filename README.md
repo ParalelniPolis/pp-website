@@ -1,9 +1,10 @@
 # pp-website
-Brand new and shiny website for Paralelni Polis
 
-grafické zadání lze jajít ve složce <b>grafické zadání</b>
+**instalalce níže**
 
-hlavní složka pro vývoj frondendu je <b>htdocs/content/themes/app</b> a v ní se nachází:
+grafické zadání lze jajít ve složce **grafické zadání**
+
+hlavní složka pro vývoj frondendu je **htdocs/content/themes/app** a v ní se nachází:
 
 * admin/: This folder is an extension of the classic functions.php file. You can add as many files as you want at its root. As the name suggests, this is where you'll write your code in order to shape the WordPress administration and set your data: custom post types, metaboxes, custom fields, pages,... Note: The framework will load your files in alphabetical order. An application.php file is loaded by default.
 * assets/: Insert all your stylesheets, javascripts, images and other public assets inside this folder.
@@ -18,4 +19,13 @@ hlavní složka pro vývoj frondendu je <b>htdocs/content/themes/app</b> a v ní
 
 hlavní readme na Themosis je na http://framework.themosis.com/docs/framework/
 
-je založený user guest s heslem guest - pro login stačí zadat /login
+je založený user **guest** s heslem guest - pro login stačí zadat /login
+
+# instalace
+zatím je nakonfogurovaná jen local instalace do složky /pp-website
+
+via composer execute: 
+
+    composer create-project themosis/themosis my-project-name
+    
+pozor - composer nic nestáhne do složky která už něco obsahuje, stejně tak git - stáhněte to vedle a potom přesuňte

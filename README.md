@@ -26,6 +26,6 @@ zatím je nakonfogurovaná jen local instalace do složky /pp-website
 
 via composer execute: 
 
-    composer create-project themosis/themosis my-project-name
+    composer create-project themosis/themosis pp-website
     
 pozor - composer nic nestáhne do složky která už něco obsahuje, stejně tak git - stáhněte to vedle a potom přesuňte
